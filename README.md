@@ -56,9 +56,9 @@ Version in: `package.json` → `version`
 Run interactively:
 
 ```bash
-   ./tag-microservices.sh
-   or
-   bash tag-microservices.sh
+./tag-microservices.sh
+or
+bash tag-microservices.sh
 ```
 
 Optional flags:
