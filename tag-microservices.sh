@@ -158,7 +158,7 @@ for service in "${services[@]}"; do
     done
 
     read -p "Enter message, Sample: [FEATURE: Adding sth | PATCH: Fixing sth | UPDATE: sth version]: " message
-    full_message="[RELEASE-DEV-${version}-${current_date}]${message}"
+    full_message="[RELEASE_${version}_${current_date}]${message}"
 
     echo
     echo "Preview Tag for ${service^^}:"
